@@ -14,7 +14,7 @@ struct ContentView: View {
                         .foregroundColor(.blue)
                         .padding(.all)
                         .overlay(
-                            Text("Text")
+                            Text("Message")
                                 .font(.largeTitle)
                                 .bold()
                                 .foregroundColor(.white)
