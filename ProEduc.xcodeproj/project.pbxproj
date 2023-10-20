@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFB6248A2AE01CA700483237 /* loversApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB624892AE01CA700483237 /* loversApp.swift */; };
+		DF65F8772AE26667008C8916 /* ProEduc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65F8762AE26667008C8916 /* ProEduc.swift */; };
 		DFB6248C2AE01CA700483237 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6248B2AE01CA700483237 /* ContentView.swift */; };
 		DFB6248E2AE01CA900483237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB6248D2AE01CA900483237 /* Assets.xcassets */; };
 		DFB624912AE01CA900483237 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB624902AE01CA900483237 /* Preview Assets.xcassets */; };
@@ -15,8 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DFB624862AE01CA700483237 /* lovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFB624892AE01CA700483237 /* loversApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loversApp.swift; sourceTree = "<group>"; };
+		DF65F8762AE26667008C8916 /* ProEduc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProEduc.swift; sourceTree = "<group>"; };
+		DFB624862AE01CA700483237 /* Pro Educ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pro Educ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB6248B2AE01CA700483237 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFB6248D2AE01CA900483237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB624902AE01CA900483237 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -34,10 +34,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF65F8752AE265FD008C8916 /* Pro Educ */ = {
+			isa = PBXGroup;
+			children = (
+				DF65F8762AE26667008C8916 /* ProEduc.swift */,
+				DFB6248B2AE01CA700483237 /* ContentView.swift */,
+				DFB6249D2AE13A9900483237 /* NotificationView1.swift */,
+				DFB6248D2AE01CA900483237 /* Assets.xcassets */,
+				DFB6248F2AE01CA900483237 /* Preview Content */,
+			);
+			path = "Pro Educ";
+			sourceTree = "<group>";
+		};
 		DFB6247D2AE01CA700483237 = {
 			isa = PBXGroup;
 			children = (
-				DFB624882AE01CA700483237 /* lovers */,
+				DF65F8752AE265FD008C8916 /* Pro Educ */,
 				DFB624872AE01CA700483237 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,21 +57,9 @@
 		DFB624872AE01CA700483237 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFB624862AE01CA700483237 /* lovers.app */,
+				DFB624862AE01CA700483237 /* Pro Educ.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		DFB624882AE01CA700483237 /* lovers */ = {
-			isa = PBXGroup;
-			children = (
-				DFB624892AE01CA700483237 /* loversApp.swift */,
-				DFB6248B2AE01CA700483237 /* ContentView.swift */,
-				DFB6249D2AE13A9900483237 /* NotificationView1.swift */,
-				DFB6248D2AE01CA900483237 /* Assets.xcassets */,
-				DFB6248F2AE01CA900483237 /* Preview Content */,
-			);
-			path = lovers;
 			sourceTree = "<group>";
 		};
 		DFB6248F2AE01CA900483237 /* Preview Content */ = {
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DFB624852AE01CA700483237 /* lovers */ = {
+		DFB624852AE01CA700483237 /* Pro Educ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFB624942AE01CA900483237 /* Build configuration list for PBXNativeTarget "lovers" */;
+			buildConfigurationList = DFB624942AE01CA900483237 /* Build configuration list for PBXNativeTarget "Pro Educ" */;
 			buildPhases = (
 				DFB624822AE01CA700483237 /* Sources */,
 				DFB624832AE01CA700483237 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = lovers;
+			name = "Pro Educ";
 			productName = lovers;
-			productReference = DFB624862AE01CA700483237 /* lovers.app */;
+			productReference = DFB624862AE01CA700483237 /* Pro Educ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DFB624812AE01CA700483237 /* Build configuration list for PBXProject "lovers" */;
+			buildConfigurationList = DFB624812AE01CA700483237 /* Build configuration list for PBXProject "Pro Educ" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFB624852AE01CA700483237 /* lovers */,
+				DFB624852AE01CA700483237 /* Pro Educ */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +142,7 @@
 			files = (
 				DFB6249E2AE13A9900483237 /* NotificationView1.swift in Sources */,
 				DFB6248C2AE01CA700483237 /* ContentView.swift in Sources */,
-				DFB6248A2AE01CA700483237 /* loversApp.swift in Sources */,
+				DF65F8772AE26667008C8916 /* ProEduc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +275,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"lovers/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ProEduc/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -288,7 +288,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..lovers;
+				PRODUCT_BUNDLE_IDENTIFIER = com..ProEduc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,7 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"lovers/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ProEduc/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..lovers;
+				PRODUCT_BUNDLE_IDENTIFIER = com..ProEduc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DFB624812AE01CA700483237 /* Build configuration list for PBXProject "lovers" */ = {
+		DFB624812AE01CA700483237 /* Build configuration list for PBXProject "Pro Educ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFB624922AE01CA900483237 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFB624942AE01CA900483237 /* Build configuration list for PBXNativeTarget "lovers" */ = {
+		DFB624942AE01CA900483237 /* Build configuration list for PBXNativeTarget "Pro Educ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFB624952AE01CA900483237 /* Debug */,

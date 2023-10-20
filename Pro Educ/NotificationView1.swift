@@ -1,12 +1,12 @@
 import SwiftUI
 
-struct ContentView: View {
+struct NotificationView: View {
     var body: some View {
         NavigationView {
-            ZStack{
-//                RadialGradient(gradient: Gradient(colors: [Color.red, Color.orange]), center: .topLeading , startRadius: 55, endRadius: 359)
+           ZStack{
+                RadialGradient(gradient: Gradient(colors: [Color.red, Color.orange]), center: .topLeading , startRadius: 55, endRadius: 359)
                 
-                VStack(alignment: .center, spacing: 25.0) {
+                VStack{
                     
                     RoundedRectangle(cornerRadius: 25)
                     
@@ -20,20 +20,20 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                             
                         )
-                    List(1..<10) { item in
-                        NavigationLink(destination: MessageDetailView()) {
-                            Text("Message  \(item)")
-                                .fontWeight(.medium)
-                                .foregroundColor(Color.blue)
-                                .multilineTextAlignment(.leading)
-                                .lineLimit(6)
+                        List(1..<10) { item in
+                            NavigationLink(destination: MessageDetailView()) {
+                                Text("Message  \(item)")
+                                    .fontWeight(.medium)
+                                    .foregroundColor(Color.blue)
+                                    .multilineTextAlignment(.leading)
+                                    .lineLimit(6)
+                            }
+                            .padding(.all, 8.0)
                         }
-                        .padding(.all, 8.0)
                     }
-                    
-                }
-                
-            }
+
+           }.ignoresSafeArea()
+           
         }
     }
     
@@ -46,9 +46,9 @@ struct ContentView: View {
     }
 }
     
-    struct ContentView_Previews: PreviewProvider {
+    struct NotificationView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            NotificationView()
         }
     }
 
